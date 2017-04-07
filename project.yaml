@@ -1,0 +1,37 @@
+internalName: bxr_keyboard
+
+locales:
+  en:
+    name: &bundleName "Russia Buriat Keyboards"
+    description: "Mobile OS keyboards for the Russia Buriat language from the Divvun group at UiT."
+  nb:
+    name: "Russia Buriat tastatur"
+    description: "Mobiltastatur for Russia Buriat fra Divvun-gruppa."
+
+author: The Divvun Group, UiT Norgga árktalaš universitehta
+email: feedback@divvun.no
+
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+organisation: UiT Norgga árktalaš universitehta
+
+layouts: [bxr]
+
+version: 1.0
+build: 1
+
+targets:
+  android:
+    packageId: no.uit.giella.keyboards.bxr
+    icon: bxr-icon.pdf
+    keyStore: /Users/brendan/git/softkbdgen/test.keystore
+    keyAlias: bxr_keyboard
+
+  ios: &AppleID
+    codeSignId: "iOS Development"
+    provisioningProfileId: Test
+    packageId: no.uit.giella.keyboards.bxr
+    bundleName: *bundleName
+    icon:
+        90: bxr-icon-small.png
+        150: bxr-icon.png
+  osx: *AppleID
