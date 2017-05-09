@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.bxr
     bundleName: *bundleName
     icon: images/bxr-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/bxr-icon.png
+    codeSignId: "my-test-installer"
