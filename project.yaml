@@ -21,8 +21,8 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.__UND__
-    icon: images/__UND__-icon.pdf
+    packageId: no.uit.giella.keyboards.bxr
+    icon: images/bxr-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: bxr_keyboard
 
@@ -31,5 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.bxr
     bundleName: *bundleName
-    icon: images/__UND__-icon.png
+    icon: images/bxr-icon.png
   osx: *AppleID
