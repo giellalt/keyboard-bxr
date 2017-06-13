@@ -1,125 +1,107 @@
 ### Generated from se-t-k0-osx.xml on 2017-05-08 at 07:51.
-internalName: bxr_keyboards
+internalName: kpv_keyboards
 
 displayNames:
-  bxr: Russia Buriat
-  en: Russia Buriat
+  kpv: Коми-зырян кыв
+  en: Komi Zyrian
+  fi: Komisyrjääni
+  ru: Коми-зырянский язык
 
-locale: bxr
+locale: kpv
 
 modes:
 # mobile layouts:
   mobile-default: |
-    á š e r t y u i o p ŋ
-    a s d f g h j k l đ ŧ
-    ž z č c v b n m w
+    й і у к е н г ш ӧ з х ъ
+    ф ы в а п р о л д ж э ё
+    я ч с м и т ь б ю
   mobile-shift: |
-    Á Š E R T Y U I O P Ŋ
-    A S D F G H J K L Đ Ŧ
-    Ž Z Č C V B N M W
+    Й І У К Е Н Г Ш Ӧ З Х Ъ
+    Ф Ы В А П Р О Л Д Ж Э Ё
+    Я Ч С М И Т Ь Б Ю
 
 # desktop keyboard layouts:
   # default
-  iso-default: &default |
-    ' 1 2 3 4 5 6 7 8 9 0 + ´
-    á š e r t ŧ u i o p å ŋ
-    a s d f g h j k l ø æ đ
-    ž z č c v b n m , . -
-  # shift+caps?
+  iso-default: |
+    ] 1 2 3 4 5 6 7 8 9 0 - =
+    й і у к е н г ш ӧ з х ъ
+    ф ы в а п р о л д ж э \
+    ё я ч с м и т ь б ю .
+  # shift caps+shiftR+shiftL? caps+shiftL cmd+caps cmd+optR+optL?
   iso-shift: |
-    § ! " # $ % & / ( ) = ? `
-    Á Š E R T Ŧ U I O P Å Ŋ
-    A S D F G H J K L Ø Æ Đ
-    Ž Z Č C V B N M ; : _
+    [ ! " № ; % : ? * ( ) _ +
+    Й І У К Е Н Г Ш Ӧ З Х Ъ
+    Ф Ы В А П Р О Л Д Ж Э /
+    Ё Я Ч С М И Т Ь Б Ю ,
   # caps
   iso-caps: |
-    ' 1 2 3 4 5 6 7 8 9 0 + ´
-    Á Š E R T Ŧ U I O P Å Ŋ
-    A S D F G H J K L Ø Æ Đ
-    Ž Z Č C V B N M , . -
-  # opt
+    ] 1 2 3 4 5 6 7 8 9 0 - =
+    Й І У К Е Н Г Ш Ӧ З Х Ъ
+    Ф Ы В А П Р О Л Д Ж Э \
+    Ё Я Ч С М И Т Ь Б Ю .
+  # optL+caps
+  iso-caps+alt: |
+    ~ ! @ # $ © ^ & * ( ) – ≠
+    Ј Џ Ў Ќ † Њ Ѓ Ѕ Щ ’ ” Ґ
+    d Ѕ Ћ ± √ ∞ µ Љ L » Є |
+    § Ђ X C V І ƒ M < > Ї
+  # opt cmd+optL+caps?
   iso-alt: |
-    ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-    q w é ˇ þ y ˀ ʼ œ ˙ ˚ ¨
-    ¯ ß ð ƒ . ˛ ˘ ˜ - ö ä @
-    < ÷ x ¸ ‹ › ‘ ’ ‚ … –
+    ` ! @ # $ © ^ & * ( ) – ≠
+    ј ц ў ќ † њ ѓ ѕ щ ‘ “ «
+    d z ћ ÷ … • ∆ љ l « є \
+    § ђ x c v і ƒ m ≤ ≥ ї
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    § ¡ ® ¥ ¢ \u{302} ¶ \ { } \u{30B} ¿ \u{300}
-    Q W É \u{30C} Þ Y \u{309} \u{31B} Œ \u{307} \u{30A} \u{308}
-    \u{304} № Ð ʔ \u{323} \u{328} \u{306} \u{303} \u{335} Ö Ä *
-    > ⁄ X \u{327} « » “ ” „ · —
-  # opt+caps
-  iso-caps+alt: |
-    ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-    Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ ¨
-    ¯ SS Ð ƒ . ˛ ˘ ˜ - Ö Ä @
-    < ÷ X ¸ ‹ › ‘ ’ ‚ … –
-  # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
+    ~ ™ § £ € ® ¬ ¶ ° { } — ≈
+    Ј Ц Ў Ќ † Њ Ѓ Ѕ Щ ’ ” »
+    d Z Ћ ± √ ∞ µ Љ L » Є |
+    ± Ђ X C V І ƒ M < > Ї
+  # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
-    0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+    ` 1 2 3 4 5 6 7 8 9 0 \u{1F} +
     \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-    \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-    ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-  osx-cmd: *default
-  # cmd+opt+caps?
-  osx-cmd+alt:
-    E00: €
-    E01: ©
-    E02: ™
-    E03: £
-    E04: €
-    E05: §
-    E07: "|"
-    E08: "["
-    E09: "]"
-    E10: ≈
-    E11: ±
-    E12: "`"
-    D01: •
-    D02: ","
-    D03: é
-    D05: ŧ
-    D06: µ
-    D07: ü
-    D08: ı
-    D09: œ
-    D10: þ
-    D11: ˙
-    D12: ˜
-    C01: ¯
-    C02: ß
-    C03: ð
-    C04: ƒ
-    C06: ħ
-    C07: ˝
-    C08: ª
-    C09: ł
-    C10: ö
-    C11: ä
-    C12: "'"
-    B00: ≤
-    B01: ÷
-    B02: đ
-    B03: ¸
-    B04: ‹
-    B05: ›
-    B06: ‘
-    B07: ’
-    B08: ‚
-    B09: …
-    B10: –
+    \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} : " \u{1C}
+    0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+  # cmd+shiftR? cmd+shiftR+shiftL? cmd+caps+shift
+  osx-cmd: |
+    ` 1 2 3 4 5 6 7 8 9 0 - =
+    q w e r t y u i o p [ ]
+    a s d f g h j k l ; ' \
+    ` z x c v b n m , . /
+  # cmd+shiftL
+  osx-cmd+shift: |
+    ~ ! @ # $ % ^ & * ( ) _ +
+    Q W E R T Y U I O P { }
+    A S D F G H J K L : " |
+    ~ Z X C V B N M < > ?
 
 # mobile keyboards properties:
 longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
+  І: Ц
+  Ӧ: Щ
+  И: І
+  Д: Ԁ Ԃ 
+  Ж: Җ
+  З: Ԅ Ԇ
+  Й: Ј
+  Л: Ԉ
+  Н: Ԋ
+  С: Ԍ
+  Т: Ԏ
+
+  
+  і: ц
+  ӧ: щ
+  и: і
+  д: ԁ ԃ
+  ж: җ
+  з: ԅ ԇ
+  й: ј
+  л: ԉ
+  н: ԋ
+  с: ԍ
+  т: ԏ
 
 styles:
   tablet:
@@ -133,8 +115,10 @@ styles:
       backspace: [3, right, fill]
 
 strings:
-  space: gaska
-  return: linnjámolsun
+  space: Пробел
+  return: Ввод
+#  space: кэ̄сск
+#  return: рядтвоайхэсс
 
 # other desktop keyboard properties:
 decimal: ","
@@ -643,7 +627,6 @@ transforms:
 
 special:
   space:
-    iso-caps: \u{A0}
     iso-alt: \u{A0}
     iso-alt+shift: \u{A0}
     iso-caps+alt: \u{A0}
