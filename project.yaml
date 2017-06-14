@@ -1,12 +1,12 @@
-internalName: bxr_keyboard
+internalName: bxr
 
 locales:
   en:
     name: &bundleName "Russia Buriat Keyboards"
     description: "Mobile OS keyboards for the Russia Buriat language from the Divvun group at UiT."
   nb:
-    name: "Russia Buriat tastatur"
-    description: "Mobiltastatur for Russia Buriat fra Divvun-gruppa."
+    name: "Buriat-tastatur (Russland)"
+    description: "Mobiltastatur for russisk buriat fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no

@@ -1,13 +1,13 @@
 ### Generated from se-t-k0-osx.xml on 2017-05-08 at 07:51.
-internalName: kpv_keyboards
+internalName: bxr
 
 displayNames:
-  kpv: Коми-зырян кыв
-  en: Komi Zyrian
-  fi: Komisyrjääni
-  ru: Коми-зырянский язык
+  en: Buryad
+  ru: Бурятский язык
+  bxr: Буряад хэлэн
+  mn: Буриад хэл
 
-locale: kpv
+locale: bxr
 
 modes:
 # mobile layouts:
