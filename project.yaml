@@ -39,7 +39,7 @@ targets:
 
   osx:
     <<: *AppleID
-    icon: images/bxr-keyboard-menu-icon.png
+    icon: images/buryad.png
     version: 0.1.0
     resources: doc
 
