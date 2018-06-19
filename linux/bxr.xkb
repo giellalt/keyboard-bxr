@@ -1,0 +1,116 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "latin"
+    name[Group1] = "Буряад хэлэн";
+
+    key <AE00> { [ Cyrillic_io, Cyrillic_IO,    section,  plusminus ] };
+    key <AE01> { [          1,     exclam,     exclam,  trademark ] };
+    key <AE02> { [          2,   quotedbl,         at,    section ] };
+    key <AE03> { [          3, numerosign, numbersign,   sterling ] };
+    key <AE04> { [          4,  semicolon,     dollar,   EuroSign ] };
+    key <AE05> { [          5,    percent,  copyright, registered ] };
+    key <AE06> { [          6,      colon, asciicircum,    notsign ] };
+    key <AE07> { [          7,   question,  ampersand,  paragraph ] };
+    key <AE08> { [          8,   asterisk,   asterisk,     degree ] };
+    key <AE09> { [          9,  parenleft,  parenleft,  braceleft ] };
+    key <AE10> { [          0, parenright, parenright, braceright ] };
+    key <AE11> { [      minus,   underbar,     endash,     emdash ] };
+    key <AE12> { [      equal,       plus,   notequal,      U2248 ] };
+    key <AD01> { [ Cyrillic_shorti, Cyrillic_SHORTI, Cyrillic_je, Cyrillic_JE ] };
+    key <AD02> { [ Cyrillic_o_bar, Cyrillic_O_bar, Cyrillic_tse, Cyrillic_TSE ] };
+    key <AD03> { [ Cyrillic_u, Cyrillic_U, Byelorussian_shortu, Byelorussian_SHORTU ] };
+    key <AD04> { [ Cyrillic_ka, Cyrillic_KA, Macedonia_kje, Macedonia_KJE ] };
+    key <AD05> { [ Cyrillic_ie, Cyrillic_IE,     dagger,     dagger ] };
+    key <AD06> { [ Cyrillic_en, Cyrillic_EN, Cyrillic_nje, Cyrillic_NJE ] };
+    key <AD07> { [ Cyrillic_ghe, Cyrillic_GHE, Macedonia_gje, Macedonia_GJE ] };
+    key <AD08> { [ Cyrillic_sha, Cyrillic_SHA, Macedonia_dse, Macedonia_DSE ] };
+    key <AD09> { [ Cyrillic_u_straight, Cyrillic_U_straight, Cyrillic_shcha, Cyrillic_SHCHA ] };
+    key <AD10> { [ Cyrillic_ze, Cyrillic_ZE, leftsinglequotemark, rightsinglequotemark ] };
+    key <AD11> { [ Cyrillic_ha, Cyrillic_HA, leftdoublequotemark, rightdoublequotemark ] };
+    key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, guillemotleft, guillemotright ] };
+    key <AC01> { [ Cyrillic_shha, Cyrillic_SHHA,          d,          d ] };
+    key <AC02> { [ Cyrillic_yeru, Cyrillic_YERU,          z,          Z ] };
+    key <AC03> { [ Cyrillic_ve, Cyrillic_VE, Serbian_tshe, Serbian_TSHE ] };
+    key <AC04> { [ Cyrillic_a, Cyrillic_A,   division,  plusminus ] };
+    key <AC05> { [ Cyrillic_pe, Cyrillic_PE,   ellipsis, squareroot ] };
+    key <AC06> { [ Cyrillic_er, Cyrillic_ER, enfilledcircbullet,   infinity ] };
+    key <AC07> { [ Cyrillic_o, Cyrillic_O,      U2206,         mu ] };
+    key <AC08> { [ Cyrillic_el, Cyrillic_EL, Cyrillic_lje, Cyrillic_LJE ] };
+    key <AC09> { [ Cyrillic_de, Cyrillic_DE,          l,          L ] };
+    key <AC10> { [ Cyrillic_zhe, Cyrillic_ZHE, guillemotleft, guillemotright ] };
+    key <AC11> { [ Cyrillic_e, Cyrillic_E, Ukrainian_ie, Ukrainian_IE ] };
+    key <AD13> { [  backslash,      slash,  backslash,        bar ] };
+    key <AB00> { [ bracketright, bracketleft,      grave, asciitilde ] };
+    key <AB01> { [ Cyrillic_ya, Cyrillic_YA, Serbian_dje, Serbian_DJE ] };
+    key <AB02> { [ Cyrillic_che, Cyrillic_CHE,          x,          X ] };
+    key <AB03> { [ Cyrillic_es, Cyrillic_ES,          c,          C ] };
+    key <AB04> { [ Cyrillic_em, Cyrillic_EM,          v,          V ] };
+    key <AB05> { [ Cyrillic_i, Cyrillic_I, Ukrainian_i, Ukrainian_I ] };
+    key <AB06> { [ Cyrillic_te, Cyrillic_TE,   function,   function ] };
+    key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,          m,          M ] };
+    key <AB08> { [ Cyrillic_be, Cyrillic_BE, lessthanequal,  leftcaret ] };
+    key <AB09> { [ Cyrillic_yu, Cyrillic_YU, greaterthanequal, rightcaret ] };
+    key <AB10> { [ decimalpoint,      comma, Ukrainian_yi, Ukrainian_YI ] };
+
+    include "level3(ralt_switch)"
+};
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "latin"
+    name[Group1] = "Буряад хэлэн";
+
+    key <AE00> { [ Cyrillic_io, Cyrillic_IO ] };
+    key <AE01> { [          1,     exclam ] };
+    key <AE02> { [          2,   quotedbl ] };
+    key <AE03> { [          3, numerosign ] };
+    key <AE04> { [          4,  semicolon ] };
+    key <AE05> { [          5,    percent ] };
+    key <AE06> { [          6,      colon ] };
+    key <AE07> { [          7,   question ] };
+    key <AE08> { [          8,   asterisk ] };
+    key <AE09> { [          9,  parenleft ] };
+    key <AE10> { [          0, parenright ] };
+    key <AE11> { [      minus,   underbar ] };
+    key <AE12> { [      equal,       plus ] };
+    key <AD01> { [ Cyrillic_shorti, Cyrillic_SHORTI ] };
+    key <AD02> { [ Cyrillic_o_bar, Cyrillic_O_bar ] };
+    key <AD03> { [ Cyrillic_u, Cyrillic_U ] };
+    key <AD04> { [ Cyrillic_ka, Cyrillic_KA ] };
+    key <AD05> { [ Cyrillic_ie, Cyrillic_IE ] };
+    key <AD06> { [ Cyrillic_en, Cyrillic_EN ] };
+    key <AD07> { [ Cyrillic_ghe, Cyrillic_GHE ] };
+    key <AD08> { [ Cyrillic_sha, Cyrillic_SHA ] };
+    key <AD09> { [ Cyrillic_u_straight, Cyrillic_U_straight ] };
+    key <AD10> { [ Cyrillic_ze, Cyrillic_ZE ] };
+    key <AD11> { [ Cyrillic_ha, Cyrillic_HA ] };
+    key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN ] };
+    key <AC01> { [ Cyrillic_shha, Cyrillic_SHHA ] };
+    key <AC02> { [ Cyrillic_yeru, Cyrillic_YERU ] };
+    key <AC03> { [ Cyrillic_ve, Cyrillic_VE ] };
+    key <AC04> { [ Cyrillic_a, Cyrillic_A ] };
+    key <AC05> { [ Cyrillic_pe, Cyrillic_PE ] };
+    key <AC06> { [ Cyrillic_er, Cyrillic_ER ] };
+    key <AC07> { [ Cyrillic_o, Cyrillic_O ] };
+    key <AC08> { [ Cyrillic_el, Cyrillic_EL ] };
+    key <AC09> { [ Cyrillic_de, Cyrillic_DE ] };
+    key <AC10> { [ Cyrillic_zhe, Cyrillic_ZHE ] };
+    key <AC11> { [ Cyrillic_e, Cyrillic_E ] };
+    key <AD13> { [  backslash,      slash ] };
+    key <AB00> { [  backslash,      slash ] };
+    key <AB01> { [ Cyrillic_ya, Cyrillic_YA ] };
+    key <AB02> { [ Cyrillic_che, Cyrillic_CHE ] };
+    key <AB03> { [ Cyrillic_es, Cyrillic_ES ] };
+    key <AB04> { [ Cyrillic_em, Cyrillic_EM ] };
+    key <AB05> { [ Cyrillic_i, Cyrillic_I ] };
+    key <AB06> { [ Cyrillic_te, Cyrillic_TE ] };
+    key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+    key <AB08> { [ Cyrillic_be, Cyrillic_BE ] };
+    key <AB09> { [ Cyrillic_yu, Cyrillic_YU ] };
+    key <AB10> { [ decimalpoint,      comma ] };
+
+    include "level3(ralt_switch)"
+};
+
