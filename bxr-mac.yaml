@@ -1,5 +1,5 @@
-### Generated from se-t-k0-osx.xml on 2017-05-08 at 07:51.
-internalName: bxr
+### Generated from ru-t-k0-osx-extended.xml
+internalName: bxr-mac
 
 displayNames:
   en: Buryad
@@ -9,12 +9,7 @@ displayNames:
 
 locale: bxr
 
-supportedTargets: [win, x11, svg]
-
-targets:
-  win:
-    locale: bxr-Cyrl
-    languageName: "Буряад хэлэн"
+supportedTargets: [osx, x11, svg]
 
 modes:
 # desktop keyboard layouts:
