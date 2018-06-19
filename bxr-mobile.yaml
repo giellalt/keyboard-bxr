@@ -1,4 +1,4 @@
-internalName: bxr
+internalName: bxr-mobile
 
 displayNames:
   en: Buryad
@@ -8,17 +8,18 @@ displayNames:
 
 locale: bxr
  
+supportedTargets: [ios, android]
+
 modes:
-  default: [
-    й ө у к е н г ш ү з х ъ,
-    һ ы в а п р о л д ж э ё,
-    я ч с м и т ь б ю
-  ]
-  shift: [
-    Й Ө У К Е Н Г Ш Ү З Х Ъ,
-    Һ Ы В А П Р О Л Д Ж Э Ё,
-    Я Ч С М И Т Ь Б Ю
-  ]
+# mobile layouts:
+  mobile-default: |
+    й ө у к е н г ш ү з х ъ
+    һ ы в а п р о л д ж э ё
+       я ч с м и т ь б ю
+  mobile-shift: |
+    Й Ө У К Е Н Г Ш Ү З Х Ъ
+    Һ Ы В А П Р О Л Д Ж Э Ё
+       Я Ч С М И Т Ь Б Ю
 
 longpress:
   Ө: Ц
@@ -50,4 +51,3 @@ styles:
 strings:
   space:Зай хэхэ
   return: Оруулха
-
