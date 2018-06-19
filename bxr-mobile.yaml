@@ -49,5 +49,5 @@ styles:
       backspace: [3, right, fill]
 
 strings:
-  space:Зай хэхэ
+  space: Зай хэхэ
   return: Оруулха
