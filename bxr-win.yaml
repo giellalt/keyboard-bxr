@@ -1,11 +1,20 @@
 ### Generated from ru-t-k0-windows.xml on 2018-06-19 at 11:12.
-
-internalName: ru-t-k0-windows
+internalName: bxr-win
 
 displayNames:
-  ru: Russian
+  en: Buryad
+  ru: Бурятский язык
+  bxr: Буряад хэлэн
+  mn: Буриад хэл
 
-locale: ru
+locale: bxr
+
+supportedTargets: [win, x11, svg]
+
+targets:
+  win:
+    locale: bxr-Cyrl
+    languageName: "Буряад хэлэн"
 
 modes:
   # default
