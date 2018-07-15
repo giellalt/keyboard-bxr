@@ -34,21 +34,21 @@ modes:
   # optL+caps
   iso-caps+alt: |
     § ! @ # $ © ^ & * ( ) – ≠
-      Ј Џ Ў Ќ † Ң Ѓ Ѕ Щ ’ ” Ґ
-      Ф Ѕ Ћ Ә √ ∞ µ Љ L Җ Є |
-    ~ Ђ X C V І ƒ M < > Ї
+      \u{0} Џ \u{0} \u{0} \u{0} Ң \u{0} \u{0} Щ \u{0} \u{0} \u{0}
+      Ф \u{0} \u{0} Ә \u{0} \u{0} \u{0} \u{0} \u{0} Җ \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} < > \u{0}
   # opt cmd+optL+caps?
   iso-alt: |
     § ! @ # $ © ^ & * ( ) – ≠
-      ј ц ў ќ † ң ѓ ѕ щ ‘ “ «
-      ф z ћ ә … • ∆ љ l җ є \
-    ` ђ x c v і ƒ m ≤ ≥ ї
+      \u{0} ц \u{0} \u{0} \u{0} ң \u{0} \u{0} щ \u{0} \u{0} \u{0}
+      ф \u{0} \u{0} ә \u{0} \u{0} \u{0} \u{0} \u{0} җ \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ≤ ≥ \u{0}
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     ± ™ § £ € ® ¬ ¶ ° { } — ≈
-      Ј Ц Ў Ќ † Њ Ѓ Ѕ Щ ’ ” »
-      d Z Ћ ± √ ∞ µ Љ L » Є |
-    ~ Ђ X C V І ƒ M < > Ї
+      \u{0} Ц \u{0} \u{0} \u{0} Ң \u{0} \u{0} Щ \u{0} \u{0} \u{0}
+      Ф \u{0} \u{0} Ә \u{0} \u{0} \u{0} \u{0} \u{0} Җ \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} < > \u{0}
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
     0 1 2 3 4 5 6 7 8 9 0 \u{1F} +
