@@ -34,14 +34,14 @@ modes:
   # optL+caps
   iso-caps+alt: |
     § ! @ # $ © ^ & * ( ) – ≠
-      Ј Џ Ў Ќ † Њ Ѓ Ѕ Щ ’ ” Ґ
-      d Ѕ Ћ ± √ ∞ µ Љ L » Є |
+      Ј Џ Ў Ќ † Ң Ѓ Ѕ Щ ’ ” Ґ
+      Ф Ѕ Ћ Ә √ ∞ µ Љ L Җ Є |
     ~ Ђ X C V І ƒ M < > Ї
   # opt cmd+optL+caps?
   iso-alt: |
     § ! @ # $ © ^ & * ( ) – ≠
-      ј ц ў ќ † њ ѓ ѕ щ ‘ “ «
-      d z ћ ÷ … • ∆ љ l « є \
+      ј ц ў ќ † ң ѓ ѕ щ ‘ “ «
+      ф z ћ ә … • ∆ љ l җ є \
     ` ђ x c v і ƒ m ≤ ≥ ї
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
