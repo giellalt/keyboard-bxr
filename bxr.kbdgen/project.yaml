@@ -10,11 +10,9 @@ locales:
     description: Буриад-Монгол кирилл үсгийн гарын драйвер үүнийг Галзууд (Бадагаров) овогтой Баяндалайн Жаргал Норвегийн Divvun group-н хамт зохиов.
   en:
     name: Buryad-Mongol Keyboards
-    description: Keyboard for Buryad-Mongol from the Divvun group at UiT.
-  nb:
-    name: Buryad-tastatur (RF)
-    description: Tastatur for russisk buriat fra Divvun-gruppa.
-author: Jargal Badagarov, 'The Divvun Group, UiT Norgga árktalaš universitehta'
-copyright: (c) 2000-19 Jargal Badagarov, Divvun/Giellatekno/UiT
-email: bjargal@mail.ru, feedback@divvun.no
-organisation: UiT Norgga árktalaš universitehta
+    description: Keyboard for Buryad-Mongol from Jargal Badagarov and the Divvun group at UiT.
+
+author: Jargal Badagarov; The Divvun Group, UiT The Arctic University of Norway
+copyright: (c) 2000–2019 Jargal Badagarov; (c) 2017–2019 Divvun/Giellatekno/UiT
+email: bjargal@mail.ru; feedback@divvun.no
+organisation: UiT The Arctic University of Norway
