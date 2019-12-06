@@ -168,6 +168,7 @@ longpress:
   a: ә
   ж: җ
   н: ӊ
+  ь: ъ
 space:
   mac:
     alt: '\u{A0}'
