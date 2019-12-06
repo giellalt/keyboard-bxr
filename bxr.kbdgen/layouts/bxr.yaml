@@ -1,8 +1,8 @@
 displayNames:
-  en: Buryad
-  ru: Бурятский язык
-  bxr: Буряад хэлэн
-  mn: Буриад хэл
+  en: Buryad-Mongol
+  ru: Бурятская
+  bxr: Буряад-монгол
+  mn: Буриад-монгол
 decimal: ','
 modes:
   mac:
@@ -175,10 +175,10 @@ space:
     caps+alt: '\u{A0}'
     cmd+alt: '\u{A0}'
 strings:
-  space: Зай хэхэ
+  space: Хооһон зай
   return: Оруулха
 targets:
   win:
     locale: bxr-Cyrl
-    languageName: Буряад хэлэн
+    languageName: Буряад-Монгол
     legacyName: bxr-win
