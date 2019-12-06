@@ -1,6 +1,15 @@
 locales:
+  bxr:
+    name:
+    description:
+  ru:
+    name:
+    description:
+  mn:
+    name:
+    description:
   en:
-    name: Russia Buriat Keyboards
+    name: Buryad-Mongol Keyboards
     description: Keyboards for Russia Buriat from the Divvun group at UiT.
   nb:
     name: Buriat-tastatur (Russland)
