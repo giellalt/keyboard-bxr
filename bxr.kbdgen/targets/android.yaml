@@ -2,4 +2,4 @@ packageId: no.uit.giella.keyboards.bxr
 keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
 keyAlias: sami_keyboard
 version: 1.0.0
-build: '1'
+build: 1
