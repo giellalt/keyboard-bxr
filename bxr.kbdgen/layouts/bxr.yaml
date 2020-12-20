@@ -3,7 +3,7 @@ displayNames:
   ru: Бурятская
   bxr: Буряад-монгол
   mn: Буриад-монгол
-decimal: ','
+
 modes:
   mac:
     default: |
