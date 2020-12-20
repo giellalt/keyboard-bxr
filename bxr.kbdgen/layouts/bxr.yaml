@@ -155,6 +155,7 @@ modes:
              \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
              \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
       \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
 longpress:
   Ө: Ц
   Ү: Щ
@@ -168,6 +169,7 @@ longpress:
   а: ә
   ж: җ
   н: ң
+
 space:
   mac:
     alt: '\u{A0}'
@@ -177,6 +179,7 @@ space:
 strings:
   space: Хооһон зай
   return: Оруулха
+
 targets:
   win:
     locale: bxr-Cyrl
