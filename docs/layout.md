@@ -8,10 +8,10 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Буряад хэлэн (macOS)
+# Буряад хэлэн (macOS)
 
   
 
-## Буряад хэлэн (Windows)
+# Буряад хэлэн (Windows)
 
   
