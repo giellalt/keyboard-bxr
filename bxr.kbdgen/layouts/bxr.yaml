@@ -6,7 +6,6 @@ displayNames:
 
 modes:
   android:
-    # Soft sign is used more frequently, hard sign in long press
     default: |
       й ө у к е н г ш ү з х ц
       ё һ ы в а п р о л д ж э
