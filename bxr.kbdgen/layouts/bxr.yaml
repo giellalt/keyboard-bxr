@@ -14,6 +14,16 @@ android:
         Й Ө У К Е Н Г Ш Ү З Х Ц
         Ё Һ Ы В А П Р О Л Д Ж Э
         \s{shift} Я Ч С М И Т Ь Б Ю \s{backspace}
+  tablet-600:
+    layers:
+      default: |
+        й ө у к е н г ш ү з х ц
+        ё һ ы в а п р о л д ж э
+        \s{shift} я ч с м и т ь б ю \s{backspace}
+      shift: |
+        Й Ө У К Е Н Г Ш Ү З Х Ц
+        Ё Һ Ы В А П Р О Л Д Ж Э
+        \s{shift} Я Ч С М И Т Ь Б Ю \s{backspace}
 iOS:
   primary:
     layers:
@@ -201,7 +211,7 @@ longpress:
   ь: ъ
   '#': №
   '%': ‰ ∞
-  =: ≠ ≈
+  '=': ≠ ≈
   '-': – — •
   /: \
   ₮: $ € ¢ ₽ ₩ ¥ £
