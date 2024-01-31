@@ -10,8 +10,8 @@
 
 # Буряад хэлэн (macOS)
 
-  
+![](bxr-mac.svg)  
 
 # Буряад хэлэн (Windows)
 
-  
+![](bxr-win.svg)
